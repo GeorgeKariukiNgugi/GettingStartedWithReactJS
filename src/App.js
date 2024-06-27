@@ -1,15 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
-function Header() {
-  return  <h1>This is the header.</h1>
-}
-
-function Footer() {
-  return <p>This is the footer.</p>
-}
 function App() {
-  return <Header/>;
+  return ( < Header / > );
 }
-
 export default App;
